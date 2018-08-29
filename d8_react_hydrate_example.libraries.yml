@@ -1,0 +1,12 @@
+react:
+  version: 1.x
+  js:
+    https://unpkg.com/react@16/umd/react.development.js: {type: external, minified: true}
+    https://unpkg.com/react-dom@16/umd/react-dom.development.js: {type: external, minified: true}
+
+countdown:
+  version: 1.x
+  js:
+    js/countdown.js: {}
+  dependencies:
+    - core/drupalSettings

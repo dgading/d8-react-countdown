@@ -1,0 +1,6 @@
+name: Drupal 8 and React Integration
+description: Examples of using React hydrate and Drupal 8 together.
+package: Custom
+
+type: module
+core: 8.x
